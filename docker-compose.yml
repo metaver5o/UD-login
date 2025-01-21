@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  unstoppable-login:
+    build: .
+    ports:
+      - "5001:1234"
+    volumes:
+      - .:/app
+    command: yarn start

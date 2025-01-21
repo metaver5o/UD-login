@@ -1,0 +1,15 @@
+{
+    "name": "unstoppable-login",
+    "version": "1.0.0",
+    "description": "Unstoppable Domains Login with Popup",
+    "main": "app.js",
+    "scripts": {
+        "start": "parcel index.html"
+    },
+    "dependencies": {
+      "@uauth/js": "^2.0.0"
+    },
+    "devDependencies": {
+      "parcel": "^2.0.0"
+    }
+  }
